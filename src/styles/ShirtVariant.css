@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.ShirtVariant {
+    display: flex;
+}
+
+.textSyle {
+    display: flex;
+}
+
+.image {
+    width: 230px;
+    height: 220px;
+}
+
+
+.btn {
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.shirtVariant {
+    position: relative;
+    display: inline-block; /* Or use 'block' if you want it to span the full width */
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .text {
+    position: absolute;
+    top: 50%; /* Adjust the position as needed */
+    left: 50%; /* Adjust the position as needed */
+    color: #fff; /* Optional: Set the text color */
+    padding: 10px; /* Optional: Add some padding */
+    z-index: 1; /* Ensure the text overlay appears above the image */
+}
+
+  .text p {
+    font-size: 16px; /* Adjust the font size */
+    margin-top: 10px; /* Optional: Add some margin */
+  }
+
+  .textArea {
+    padding-top: 15px;
+    text-align: center
+  }
