@@ -74,6 +74,7 @@ const ShirtVariant = () => {
             type="text"
             value={text}
             onChange={(e) => settext(e.target.value)}
+            placeholder='Add Text on Shirt'
          />
     </div>
     <div className="image-btn">
@@ -84,6 +85,7 @@ const ShirtVariant = () => {
       <button className='btn' onClick={() => handleAlignmentChange('rigth')}>Rigth</button>
     </div>
     <div className="fontSize">
+        <h4 className='size-title'>Text Size</h4>
     <button className='btn' onClick={() => decreaseFont()}>-</button>
     <p className='fontDisplay'>{parseInt(font)}</p>
     <button className='btn' onClick={() => increaseFont()}>+</button>

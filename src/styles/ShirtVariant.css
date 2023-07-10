@@ -43,16 +43,16 @@
 
   .text {
     position: absolute;
-    top: 50%; /* Adjust the position as needed */
-    left: 50%; /* Adjust the position as needed */
-    color: #fff; /* Optional: Set the text color */
-    padding: 10px; /* Optional: Add some padding */
-    z-index: 1; /* Ensure the text overlay appears above the image */
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    padding: 10px;
+    z-index: 1;
 }
 
   .text p {
-    font-size: 16px; /* Adjust the font size */
-    margin-top: 10px; /* Optional: Add some margin */
+    font-size: 16px;
+    margin-top: 10px;
   }
 
   .textArea {
@@ -71,6 +71,10 @@
 
   .image-btn {
     padding-top: 20px;
+  }
+
+  .size-title {
+    margin-top: 20px;
   }
 
   .fontDisplay {
