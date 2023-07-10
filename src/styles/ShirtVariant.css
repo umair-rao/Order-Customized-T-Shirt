@@ -17,6 +17,7 @@
 .image {
     width: 230px;
     height: 220px;
+    margin-top: 50px;
 }
 
 
@@ -24,6 +25,7 @@
     width: 50px;
     height: 40px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .shirtVariant {
@@ -33,6 +35,10 @@
 
   .heading {
     text-align: center;
+  }
+
+  .text-head {
+    margin-bottom: 10px;
   }
 
   .text {
@@ -52,4 +58,22 @@
   .textArea {
     padding-top: 15px;
     text-align: center
+  }
+
+  .textArea input {
+    height: 30px;
+    width: 260px;
+  }
+
+  .fontSize {
+    display: flex;
+  }
+
+  .image-btn {
+    padding-top: 20px;
+  }
+
+  .fontDisplay {
+    margin-top: 20px;
+    padding-left: 10px;
   }

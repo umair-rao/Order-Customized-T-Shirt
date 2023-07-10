@@ -69,13 +69,12 @@ const ShirtVariant = () => {
       <button className='btn' onClick={() => changeColor(yellow)}>Yellow</button>
     </div>
     <div className="textArea">
-        <p>Text Styles</p>
+        <p className='text-head'>Text Styles</p>
         <input
             type="text"
             value={text}
             onChange={(e) => settext(e.target.value)}
          />
-    </div>
     </div>
     <div className="image-btn">
     <button className='btn' onClick={() => setIsBold(!isBold)}>Bold</button>
@@ -85,9 +84,10 @@ const ShirtVariant = () => {
       <button className='btn' onClick={() => handleAlignmentChange('rigth')}>Rigth</button>
     </div>
     <div className="fontSize">
+    <button className='btn' onClick={() => decreaseFont()}>-</button>
+    <p className='fontDisplay'>{parseInt(font)}</p>
     <button className='btn' onClick={() => increaseFont()}>+</button>
-    <p></p>
-      <button className='btn' onClick={() => decreaseFont()}>-</button>
+    </div>
     </div>
     </div> 
   )
